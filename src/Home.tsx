@@ -345,12 +345,8 @@ const Home = (props: HomeProps) => {
                   />
               </Heading>
 
-              <p
-              style={{
-                textAlign: "justify",
-              }}
-              >
-              A blessing from the Mendor Overlords. This Relic can be used to "ascend" one of the IMSO: "Evolved” chimps into an "Ascended" Chimp.  This Chimp will be able to breed new avatars in the future & be given special abilities in future iterations of the game.  Only 750 total chimps can ever be "ascended".  Join discord to learn more via http://imsonft.me/
+              <p>
+              A blessing from the Mendor Overlords. This Relic can be used to "ascend" one of the IMSO: "Evolved” chimps into an "Ascended" Chimp.  This Chimp will be able to breed new avatars in the future & be given special abilities in future iterations of the game.  Only 750 total chimps can ever be "ascended".  Join discord to learn more via <a href="http://imsonft.me/">our Linktree</a>.
               </p>
 
               {guardStates.isStarted && (
