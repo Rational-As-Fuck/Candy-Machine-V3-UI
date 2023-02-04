@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useCallback } from "react";
 import { Paper, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
@@ -318,8 +319,15 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="/">
                   <img
+                    style={{
+                      maxWidth: "100px",
+                      paddingRight: "25px",
+                    }}
+                    src="/transp-relic.png"
+                    alt="logo"
+                  />
+                <img
                     style={{
                       filter: "invert(1)",
                       maxWidth: "350px",
@@ -327,12 +335,18 @@ const Home = (props: HomeProps) => {
                     src="/logo.png"
                     alt="logo"
                   />
-                </Link>
+                  <img
+                    style={{
+                      maxWidth: "100px",
+                      paddingLeft: "25px",
+                    }}
+                    src="/transp-relic-right.png"
+                    alt="logo"
+                  />
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+              A blessing from the Mendor Overlords. This Relic can be used to "ascend" one of the IMSO: "Evolved” chimps into an "Ascended" Chimp.  This Chimp will be able to breed new avatars in the future & be given special abilities in future iterations of the game.  Only 750 total chimps can ever be "ascended".  Join discord to learn more via <a href="http://imsonft.me/">our Linktree</a>.
               </p>
 
               {guardStates.isStarted && (
@@ -403,7 +417,7 @@ const Home = (props: HomeProps) => {
               setMintedItems={setMintedItems}
             />
           </StyledContainer>
-          <NftWrapper>
+          {/* <NftWrapper>
             <div className="marquee-wrapper">
               <div className="marquee">
                 {[...Array(21)].map((item, index) => (
@@ -432,7 +446,7 @@ const Home = (props: HomeProps) => {
                 ))}
               </div>
             </div>
-          </NftWrapper2>
+          </NftWrapper2> */}
         </Root>
       </>
       <Snackbar
