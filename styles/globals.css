@@ -7,6 +7,7 @@
   --title-text-color: #d8b08c;
 }
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;700&family=Goldman:wght@400;700&display=swap');
 
 @font-face {
   font-family: 'Catamaran';
@@ -33,7 +34,7 @@ body {
   background-color: var(--main-background-color);
   /* background-color: #000; */
   background-size: cover;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Exo 2', sans-serif;
   font-size: 1.1em;
   
   margin: 0;

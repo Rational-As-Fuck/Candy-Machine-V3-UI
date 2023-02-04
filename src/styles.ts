@@ -631,7 +631,7 @@ export const Hero = styled('div')`
   margin: 80px 0 80px;
 `;
 export const MintCount = styled('h3')`
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Exo 2",sans-serif;
   font-size: 30px;
   line-height: 1;
   margin-bottom: 20px;
